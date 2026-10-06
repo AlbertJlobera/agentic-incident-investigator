@@ -1,0 +1,31 @@
+[RUN-9281]
+2026-10-05 08:15:02 INFO  equity_engine Starting valuation for PORT-483
+2026-10-05 08:15:04 INFO  market_data Loading closing prices
+2026-10-05 08:15:05 WARN  market_data Price timestamp mismatch detected for instrument EQ-ES-1042
+2026-10-05 08:15:05 WARN  market_data Requested valuation_date=2026-10-05; received price_date=2026-10-03
+2026-10-05 08:15:06 INFO  equity_method Applying fallback price according to current configuration
+2026-10-05 08:15:07 INFO  equity_engine Valuation completed
+2026-10-05 08:15:07 WARN  controls Portfolio variation threshold exceeded: 18.7%
+
+[RUN-9274]
+2026-10-04 18:05:01 INFO  equity_engine Starting valuation for PORT-483
+2026-10-04 18:05:03 INFO  market_data Closing prices loaded successfully
+2026-10-04 18:05:05 INFO  equity_engine Valuation completed
+2026-10-04 18:05:05 INFO  controls All controls passed
+
+[RUN-9262]
+2026-10-03 18:04:01 INFO  equity_engine Starting valuation for PORT-483
+2026-10-03 18:04:04 INFO  market_data Closing prices loaded successfully
+2026-10-03 18:04:06 INFO  equity_engine Valuation completed
+2026-10-03 18:04:06 INFO  controls All controls passed
+
+[RUN-9280]
+2026-10-05 08:10:01 INFO  equity_engine Starting valuation for PORT-221
+2026-10-05 08:10:03 INFO  market_data Closing prices loaded successfully
+2026-10-05 08:10:05 INFO  equity_engine Valuation completed
+2026-10-05 08:10:05 INFO  controls All controls passed
+
+[RUN-9279]
+2026-10-05 08:07:01 INFO  credit_engine Starting calculation for PORT-771
+2026-10-05 08:07:03 ERROR reference_data Missing rating mapping for issuer ISS-882
+2026-10-05 08:07:03 ERROR credit_engine Execution aborted

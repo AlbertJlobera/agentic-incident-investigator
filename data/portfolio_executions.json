@@ -1,0 +1,50 @@
+[
+  {
+    "portfolio_id": "PORT-483",
+    "execution_id": "RUN-9281",
+    "timestamp": "2026-10-05T08:15:00",
+    "status": "COMPLETED_WITH_WARNING",
+    "engine": "equity_engine",
+    "result": "Equity valuation differs 18.7% from previous close"
+  },
+  {
+    "portfolio_id": "PORT-483",
+    "execution_id": "RUN-9274",
+    "timestamp": "2026-10-04T18:05:00",
+    "status": "COMPLETED",
+    "engine": "equity_engine",
+    "result": "OK"
+  },
+  {
+    "portfolio_id": "PORT-483",
+    "execution_id": "RUN-9262",
+    "timestamp": "2026-10-03T18:04:00",
+    "status": "COMPLETED",
+    "engine": "equity_engine",
+    "result": "OK"
+  },
+  {
+    "portfolio_id": "PORT-221",
+    "execution_id": "RUN-9280",
+    "timestamp": "2026-10-05T08:10:00",
+    "status": "COMPLETED",
+    "engine": "equity_engine",
+    "result": "OK"
+  },
+  {
+    "portfolio_id": "PORT-771",
+    "execution_id": "RUN-9279",
+    "timestamp": "2026-10-05T08:07:00",
+    "status": "FAILED",
+    "engine": "credit_engine",
+    "result": "Execution aborted"
+  },
+  {
+    "portfolio_id": "PORT-555",
+    "execution_id": "RUN-9999",
+    "timestamp": "2026-10-05T09:00:00",
+    "status": "COMPLETED_WITH_WARNING",
+    "engine": "equity_engine",
+    "result": "Unexpected valuation result"
+}
+]
